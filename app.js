@@ -34,9 +34,11 @@ function pesquisar() {
               <a href="${item.link}" target="_blank">Mais informações</a>
             </div>
           `;
-        } else {
-          section.innerHTML = "<p>Não foi encontrado nenhum produto ou tecnologia</p>"
-          return;
+        } 
+        // teste de commit
+
+        if (!resultados) {
+          resultados = "<p>Não foi encontrado nenhum produto ou tecnologia.</p>"
         }
       console.log(item.nome.includes(campoPesquisa));
       // Constrói o HTML para cada resultado, formatando as informações do item
