@@ -140,7 +140,7 @@ let dados = [
   nome: 'PoE (Power Over Ethernet)',
   aplicacao: 'Tecnologia que permite a transmissão de dados e energia elétrica através de um único cabo Ethernet, eliminando a necessidade de tomadas elétricas adicionais para dispositivos de rede.',
   link: 'https://pt.wikipedia.org/wiki/Power_over_Ethernet',
-  exemplo: 'Switch PoE Gigabit',
+  exemplo: 'Switch PoE Gigabit, Injetor PoE 200AT',
   tags: "poe ethernet energia rede alimentacao alimentação switch"
 },
 //tecnologias de módulos de fibra óptica

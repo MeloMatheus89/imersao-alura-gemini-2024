@@ -6,7 +6,7 @@ function pesquisar() {
     
     // Inicializa uma string vazia para armazenar os resultados da pesquisa
     let resultados = "";
-    console.log(campoPesquisa);
+    // console.log(campoPesquisa);
     let  nome ="";
     let aplicacao = "";
     let tags = "";
