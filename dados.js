@@ -194,7 +194,7 @@ sfp28 = {
   nome: 'Handover',
   aplicacao: 'Processo de transferência de uma conexão de um ponto de acesso para outro durante o roaming, garantindo a continuidade da comunicação.',
   link: '',
-  exemplo: 'Handover durante uma chamada de vídeo em uma rede Wi-Fi Mesh',
+  exemplo: 'AP 1800 AX',
   tags: 'handover roaming conexão transição'
 },
 {
