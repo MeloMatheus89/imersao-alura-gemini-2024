@@ -42,6 +42,45 @@ let dados = [
           exemplo: 'Intelbras WC 3020',
           tags: "controller empresarial densidade ap gerenciamento"
       },
+      {
+        nome: 'OLT - Concentrador de linhas ópticas',
+        aplicacao: 'Um equipamento capaz de gerenciar diversos equipamentos clientes de modo concentrado. Responsável por ser o cérebro de uma operação de redes ópticas FTTx. Podem operar nas tecnologias, EPON, GPON, XGPON, XGSPON e demais. Podem ser equipamentos do tipo chassi (onde possuem maior capacidade de atendimento) ou pizza box com capacidade reduzida.',
+        link: 'https://pt.wikipedia.org/wiki/FTTH',
+        exemplo: 'Intelbras Fiberhome AN 6000-7',
+        tags: "FTTx FTTH OLT GPON EPON FIBERHOME"
+    },
+    {
+      nome: 'ONU - Unidade de Rede Óptica',
+      aplicacao: 'Equipamento terminal de rede óptica que se conecta à OLT através de uma fibra óptica. Responsável por fornecer conexão de internet aos usuários finais.',
+      link: 'https://pt.wikipedia.org/wiki/ONU_(rede)',
+      exemplo: 'Intelbras ONU R1',
+      tags: "FTTH ONU GPON EPON"
+    },
+    {
+      nome: 'ONT - Terminal de Rede Óptica',
+      aplicacao: 'Equipamento terminal de rede óptica que se conecta à OLT através de uma fibra óptica. Responsável por fornecer conexão de internet aos usuários finais. Sinônimo de ONU em alguns contextos.',
+      link: 'https://pt.wikipedia.org/wiki/ONU_(rede)',
+      exemplo: 'Intelbras Fiberhome HG6145D2',
+      tags: "FTTH ONT GPON EPON"
+    },
+    {
+      nome: 'Fibra Óptica Drop',
+      aplicacao: 'Cabo de fibra óptica utilizado na última milha, conectando a rede principal ao ponto de presença do cliente. Geralmente possui um número reduzido de fibras.',
+      link: 'COLOCAR AQUI UM LINK VÁLIDO',
+      tags: "fibra óptica drop última milha cliente"
+    },
+    {
+      nome: 'Fibra Óptica ASU',
+      aplicacao: 'Cabo óptico autossustentado com um único tubo para as fibras. Ideal para instalações mais compactas e com menor número de fibras.',
+      link: 'COLOCAR AQUI UM LINK VÁLIDO',
+      tags: "fibra óptica ASU autossustentado único compacto"
+  },
+  {
+    nome: 'Fibra Óptica AS',
+    aplicacao: 'Cabo óptico autossustentado, ideal para longas distâncias e ambientes externos. Possui alta resistência e pode ser instalado em diversas condições climáticas.',
+    link: 'COLOCAR AQUI UM LINK VÁLIDO',
+    tags: "fibra óptica AS autossustentado longa distância externo"
+}
 
 
 ];
