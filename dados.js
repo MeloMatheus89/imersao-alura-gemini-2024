@@ -1,4 +1,5 @@
 let dados = [
+        //Equipamentos de Redes Empresariais (Linha Enterprise e SMB)
         {
         nome: 'Switch Camada 2',
         aplicacao: 'Um switch não gerenciável é um dispositivo de rede plug-and-play, projetado para conectar múltiplos dispositivos em uma rede local (LAN) de forma simples e automática. Sem a necessidade de configurações complexas, ele funciona como um hub inteligente, encaminhando dados entre os dispositivos conectados com base em seus endereços MAC. Ideal para pequenas redes domésticas ou pequenas empresas que buscam uma solução fácil e rápida, os switches não gerenciáveis oferecem conectividade básica e confiável, sem a necessidade de um administrador de rede.',
@@ -42,6 +43,8 @@ let dados = [
           exemplo: 'Intelbras WC 3020',
           tags: "controller empresarial densidade ap gerenciamento"
       },
+
+      //Principais ativos de redes ópticas
       {
         nome: 'OLT - Concentrador de linhas ópticas',
         aplicacao: 'Um equipamento capaz de gerenciar diversos equipamentos clientes de modo concentrado. Responsável por ser o cérebro de uma operação de redes ópticas FTTx. Podem operar nas tecnologias, EPON, GPON, XGPON, XGSPON e demais. Podem ser equipamentos do tipo chassi (onde possuem maior capacidade de atendimento) ou pizza box com capacidade reduzida.',
@@ -62,7 +65,8 @@ let dados = [
       link: 'https://pt.wikipedia.org/wiki/ONU_(rede)',
       exemplo: 'Intelbras Fiberhome HG6145D2',
       tags: "FTTH ONT GPON EPON"
-    },
+    }, 
+    // Passivos de Fibra óptica
     {
       nome: 'Fibra Óptica Drop',
       aplicacao: 'Cabo de fibra óptica utilizado na última milha, conectando a rede principal ao ponto de presença do cliente. Geralmente possui um número reduzido de fibras.',
@@ -78,9 +82,61 @@ let dados = [
   {
     nome: 'Fibra Óptica AS',
     aplicacao: 'Cabo óptico autossustentado, ideal para longas distâncias e ambientes externos. Possui alta resistência e pode ser instalado em diversas condições climáticas.',
+    exemplo: 'COLOCAR UM EXEMPLO',
     link: 'COLOCAR AQUI UM LINK VÁLIDO',
     tags: "fibra óptica AS autossustentado longa distância externo"
-}
+},
+{
+  nome: 'Caixa de Terminação Óptica (CTO)',
+  aplicacao: 'Equipamento utilizado para concentrar e distribuir sinais de fibra óptica, geralmente instalado em um poste ou em uma parede externa.',
+  link: 'COLOCAR AQUI UM LINK VÁLIDO', // Adapte com um link mais específico
+  exemplo: 'CTO para 16 Conexões',
+  tags: "cto, fibra óptica, distribuição, rede"
+}, 
+//Partes de uma OLT
+{
+  nome: 'Placa de Atendimento GPON',
+  aplicacao: 'Responsável por fornecer os serviços GPON aos assinantes, como internet e telefonia. É instalada em um chassi OLT.',
+  exemplo: '',
+  link: 'COLOCAR AQUI UM LINK VÁLIDO',
+  tags: 'GPON, OLT, assinante, serviço'
+},
+{
+  nome: 'Placa de Gerência OLT',
+  aplicacao: 'Utilizada para administrar e configurar a OLT, permitindo a criação de usuários, configuração de VLANs e monitoramento da rede.',
+  exemplo: '',
+  link: 'COLOCAR AQUI UM LINK VÁLIDO',
+  tags: 'OLT, gerenciamento, configuração, monitoramento'
+},
+{
+  nome: 'Chassi OLT',
+  aplicacao: 'Estrutura física que abriga as placas de atendimento e gerência, além de outros componentes como fontes de alimentação e ventiladores.',
+  exemplo: '',
+  link: 'COLOCAR AQUI UM LINK VÁLIDO',
+  tags: 'OLT, hardware, estrutura'
+},
+{
+  nome: 'Módulo Mini GBIC GPON',
+  aplicacao: 'Converte sinais elétricos em sinais ópticos e vice-versa, permitindo a conexão da OLT à rede externa.',
+  link: 'COLOCAR AQUI UM LINK VÁLIDO',
+  tags: 'GPON, conversão, OLT, rede externa'
+},
+//Tecnologias
+{
+  nome: 'Protocolos de Roteamento',
+  aplicacao: 'Conjunto de regras que determinam como os pacotes de dados são encaminhados entre redes, garantindo a comunicação eficiente.',
+  link: 'https://pt.wikipedia.org/wiki/Protocolo_de_roteamento',
+  exemplo: 'OSPF, BGP, RIP',
+  tags: "roteamento, rede, ip, ospf, bgp, rip"
+},
+{
+  nome: 'Load Balance',
+  aplicacao: 'Técnica que distribui a carga de trabalho entre múltiplos servidores, melhorando a performance e a disponibilidade dos serviços.',
+  link: 'https://pt.wikipedia.org/wiki/Balanceamento_de_carga',
+  exemplo: 'Round Robin, Least Connections',
+  tags: "load balance, servidor, desempenho, disponibilidade"
+},
+
 
 
 ];
