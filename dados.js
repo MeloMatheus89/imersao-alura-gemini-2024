@@ -34,7 +34,7 @@ let dados = [
           aplicacao: 'Um roteador residencial conecta múltiplos dispositivos a uma rede e à internet, funcionando como um gateway. Geralmente oferece funcionalidades como Wi-Fi, NAT e firewall.',
           link: 'https://pt.wikipedia.org/wiki/Roteador',
           exemplo: 'Fiberhome SR1041E',
-          tags: "wifi 4 5 6 protocolo ac ax  roteador roteadores "
+          tags: "wifi 4 5 6 protocolo ac ax  roteador roteadores residencial"
         },
         {
           nome: 'Controladoras Wi-Fi',
@@ -71,19 +71,21 @@ let dados = [
       nome: 'Fibra Óptica Drop',
       aplicacao: 'Cabo de fibra óptica utilizado na última milha, conectando a rede principal ao ponto de presença do cliente. Geralmente possui um número reduzido de fibras.',
       link: 'COLOCAR AQUI UM LINK VÁLIDO',
+      exemplo: '',
       tags: "fibra óptica drop última milha cliente"
     },
     {
       nome: 'Fibra Óptica ASU',
       aplicacao: 'Cabo óptico autossustentado com um único tubo para as fibras. Ideal para instalações mais compactas e com menor número de fibras.',
       link: 'COLOCAR AQUI UM LINK VÁLIDO',
+      exemplo: '',
       tags: "fibra óptica ASU autossustentado único compacto"
   },
   {
     nome: 'Fibra Óptica AS',
     aplicacao: 'Cabo óptico autossustentado, ideal para longas distâncias e ambientes externos. Possui alta resistência e pode ser instalado em diversas condições climáticas.',
-    exemplo: 'COLOCAR UM EXEMPLO',
     link: 'COLOCAR AQUI UM LINK VÁLIDO',
+    exemplo: 'COLOCAR UM EXEMPLO',
     tags: "fibra óptica AS autossustentado longa distância externo"
 },
 {
@@ -180,6 +182,41 @@ sfp28 = {
   exemplo: 'Cabo DAC SFP+ 10G 1m',
   tags: "DAC cobre alta velocidade SFP SFP+ QSFP rede"
 },
-
+// Tecnologias de Wi-Fi, Mesh, roaming e handover
+{
+  nome: 'Fast Roaming',
+  aplicacao: 'Tecnologia que otimiza o processo de roaming, reduzindo o tempo de interrupção da conexão durante a transição entre pontos de acesso.',
+  link: '',
+  exemplo: '802.11k/v',
+  tags: 'fast roaming roaming otimização 802.11k 802.11v'
+},
+{
+  nome: 'Handover',
+  aplicacao: 'Processo de transferência de uma conexão de um ponto de acesso para outro durante o roaming, garantindo a continuidade da comunicação.',
+  link: '',
+  exemplo: 'Handover durante uma chamada de vídeo em uma rede Wi-Fi Mesh',
+  tags: 'handover roaming conexão transição'
+},
+{
+  nome: 'Roaming',
+  aplicacao: 'Capacidade de um dispositivo se conectar automaticamente a diferentes pontos de acesso Wi-Fi à medida que o usuário se move.',
+  link: '',
+  exemplo: 'Roaming entre pontos de acesso em um ambiente empresarial',
+  tags: 'roaming wifi conexão mobilidade'
+},
+{
+  nome: 'Tecnologia Mesh',
+  aplicacao: 'Rede de dispositivos interconectados que formam uma única rede sem fio, proporcionando cobertura ampla e robusta.',
+  link: 'https://tecnoblog.net/responde/quais-sao-os-dispositivos-que-compõem-uma-rede-mesh/',
+  exemplo: 'Sistema Wi-Fi Mesh TP-Link Deco',
+  tags: 'mesh wifi rede cobertura interconectado'
+},
+{
+  nome: 'Repetidor de Sinal',
+  aplicacao: 'Dispositivo que recebe um sinal Wi-Fi existente e o retransmite para expandir a cobertura da rede.',
+  link: 'https://pt.wikipedia.org/wiki/Repetidor_de_sinal_wi-fi',
+  exemplo: 'Repetidor TP-Link RE305',
+  tags: 'repetidor wifi expansão cobertura'
+}
 
 ];
