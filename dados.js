@@ -239,6 +239,13 @@ let dados = [
       link: 'https://www.intelbras.com/pt-br/serie-switch-campus-3130-sc-3130',
       exemplo: 'SC 3130, SC 3170',
       tags: 'switch acesso camada2 dispositivos finais enterprise future'
+    },
+    {
+      nome: 'Switch Industrial',
+      aplicacao: 'Dispositivo de rede projetado para operar em ambientes industriais, com características como resistência a vibrações, temperaturas extremas, umidade e interferências eletromagnéticas.',
+      link: 'https://www.intelbras.com/pt-br/serie-switch-industrial-si-3100-si-3100',
+      exemplo: 'SI 3100',
+      tags: 'switch industrial robusto poeira vibração temperatura EMI future enterprise'
     }
 
 
