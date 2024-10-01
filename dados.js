@@ -99,22 +99,22 @@ let dados = [
       {
         nome: 'Placa de Atendimento GPON',
         aplicacao: 'Responsável por fornecer os serviços GPON aos assinantes, como internet e telefonia. É instalada em um chassi OLT.',
-        exemplo: '',
-        link: 'https://pt.wikipedia.org/wiki/FTTH',
+        exemplo: 'Placa GPOA',
+        link: 'https://www.intelbras.com/pt-br/placa-de-servico-gpon-gpoa-placa-gpoa',
         tags: 'GPON OLT assinante serviço XGSPON PON EPON'
       },
       {
         nome: 'Placa de Gerência OLT',
         aplicacao: 'Utilizada para administrar e configurar a OLT, permitindo a criação de usuários, configuração de VLANs e monitoramento da rede.',
-        exemplo: 'Placa GPOA Intelbras Fiberhome',
+        exemplo: 'Placa HSCA Intelbras Fiberhome, Placa HSUD de Gerenciamento',
         link: 'https://pt.wikipedia.org/wiki/FTTH',
         tags: 'OLT gerenciamento configuração monitoramento GPON XGSPON PON'
       },
       {
       nome: 'Chassi OLT',
       aplicacao: 'Estrutura física que abriga as placas de atendimento e gerência, além de outros componentes como fontes de alimentação e ventiladores.',
-      exemplo: '',
-      link: 'COLOCAR AQUI UM LINK VÁLIDO',
+      exemplo: 'OLT AN 6000-15',
+      link: 'https://www.intelbras.com/pt-br/concentrador-de-interface-de-dados-an6000-15',
       tags: 'OLT hardware estrutura GPON PON EPON'
     },  
     {
@@ -208,14 +208,14 @@ let dados = [
       nome: 'Tecnologia Mesh',
       aplicacao: 'Rede de dispositivos interconectados que formam uma única rede sem fio, proporcionando cobertura ampla e robusta.',
       link: 'https://tecnoblog.net/responde/quais-sao-os-dispositivos-que-compõem-uma-rede-mesh/',
-      exemplo: 'Sistema Wi-Fi Mesh TP-Link Deco',
+      exemplo: 'Sistema Wi-Fi Mesh Twibi Force AX',
       tags: 'mesh wifi rede cobertura interconectado'
     },
     {
       nome: 'Repetidor de Sinal',
       aplicacao: 'Dispositivo que recebe um sinal Wi-Fi existente e o retransmite para expandir a cobertura da rede.',
       link: 'https://pt.wikipedia.org/wiki/Repetidor_de_sinal_wi-fi',
-      exemplo: 'Repetidor TP-Link RE305',
+      exemplo: 'Twibi Force Plug',
       tags: 'repetidor wifi expansão cobertura future'
     },
     //Adicionando switch campus
