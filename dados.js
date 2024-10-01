@@ -216,29 +216,29 @@ let dados = [
       aplicacao: 'Dispositivo que recebe um sinal Wi-Fi existente e o retransmite para expandir a cobertura da rede.',
       link: 'https://pt.wikipedia.org/wiki/Repetidor_de_sinal_wi-fi',
       exemplo: 'Repetidor TP-Link RE305',
-      tags: 'repetidor wifi expansão cobertura'
+      tags: 'repetidor wifi expansão cobertura future'
     },
     //Adicionando switch campus
     {
       nome: 'Switch Core',
       aplicacao: 'Dispositivo central da rede, responsável por interconectar os switches de distribuição e fornecer alta capacidade de comutação. Opera principalmente na camada 3 do modelo OSI.',
       link: 'https://www.intelbras.com/pt-br/serie-switch-campus-5530-sc-5530',
-      exemplo: 'Intelbras SC 5530',
-      tags: 'switch core camada3 alta capacidade'
+      exemplo: 'Intelbras SC 5530, SC 5525, SC 5520',
+      tags: 'switch core camada3 alta capacidade enterprise future'
      },
     {
       nome: 'Switch de Distribuição',
       aplicacao: 'Dispositivo que interconecta switches de acesso e o switch core, fornecendo roteamento entre VLANs e políticas de segurança. Opera nas camadas 2 e 3 do modelo OSI.',
       link: 'https://www.intelbras.com/pt-br/serie-switch-campus-3570-sc-3570',
-      exemplo: 'Intelbras SC 3570',
-      tags: 'switch distribuição camada2 camada3 roteamento VLAN'
+      exemplo: 'Intelbras SC 3570, ',
+      tags: 'switch distribuição camada2 camada3 roteamento VLAN enterprise future'
     },
     {
       nome: 'Switch de Acesso',
       aplicacao: 'Dispositivo que conecta diretamente os dispositivos finais à rede, como computadores, impressoras e telefones IP. Geralmente opera na camada 2 do modelo OSI.',
       link: 'https://www.intelbras.com/pt-br/serie-switch-campus-3130-sc-3130',
       exemplo: 'SC 3130, SC 3170',
-      tags: 'switch acesso camada2 dispositivos finais'
+      tags: 'switch acesso camada2 dispositivos finais enterprise future'
     }
 
 
