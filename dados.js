@@ -70,22 +70,22 @@ let dados = [
       {
         nome: 'Fibra Óptica Drop',
         aplicacao: 'Cabo de fibra óptica utilizado na última milha, conectando a rede principal ao ponto de presença do cliente. Geralmente possui um número reduzido de fibras.',
-        link: 'COLOCAR AQUI UM LINK VÁLIDO',
-        exemplo: '',
+        link: 'https://www.intelbras.com/pt-br/cabo-drop-1km-colado-cabo-drop',
+        exemplo: 'Cabo drop 1Km colado',
         tags: "fibra óptica drop última milha cliente"
       },
       {
         nome: 'Fibra Óptica ASU',
         aplicacao: 'Cabo óptico autossustentado com um único tubo para as fibras. Ideal para instalações mais compactas e com menor número de fibras.',
-        link: 'COLOCAR AQUI UM LINK VÁLIDO',
-        exemplo: '',
+        link: 'https://www.intelbras.com/pt-br/cabo-asu-com-80-e-120-metros-asu',
+        exemplo: 'Cabo ASU para vão de 80 e 120 metros',
         tags: "fibra óptica ASU autossustentado único compacto"
       },
       {
         nome: 'Fibra Óptica AS',
         aplicacao: 'Cabo óptico autossustentado, ideal para longas distâncias e ambientes externos. Possui alta resistência e pode ser instalado em diversas condições climáticas.',
-        link: 'COLOCAR AQUI UM LINK VÁLIDO',
-        exemplo: 'COLOCAR UM EXEMPLO',
+        link: 'https://www.intelbras.com/pt-br/cabo-as-compacto-com-ate-144-fibras-as',
+        exemplo: 'Cabo AS até 144 fibras',
         tags: "fibra óptica AS autossustentado longa distância externo"
       },
       {
